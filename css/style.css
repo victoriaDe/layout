@@ -1,39 +1,39 @@
 @font-face {
     font-family: Lucida Sans;
-    src: url("../../assets/fonts/Lucida/lucidaSansItalic.ttf");
+    src: url("../assets/fonts/Lucida/lucidaSansItalic.ttf");
 }
 
 @font-face {
     font-family: Segoe WP;
-    src: url("../../assets/fonts/Segoe/SegoeWPRegular.ttf");
-    src: url("../../assets/fonts/Segoe/SegoeWPLight.ttf");
+    src: url("../assets/fonts/Segoe/SegoeWPRegular.ttf");
+    src: url("../assets/fonts/Segoe/SegoeWPLight.ttf");
 }
 
 @font-face {
     font-family: Segoe UI;
-    src: url("../../assets/fonts/Segoe/SegoeUI.ttf");
-    src: url("../../assets/fonts/Segoe/SegoeUIBold.ttf");
-    src: url("../../assets/fonts/Segoe/SegoeUILight.ttf");
+    src: url("../assets/fonts/Segoe/SegoeUI.ttf");
+    src: url("../assets/fonts/Segoe/SegoeUIBold.ttf");
+    src: url("../assets/fonts/Segoe/SegoeUILight.ttf");
 }
 
 @font-face {
     font-family: Asap;
-    src: url("../../assets/fonts/Asap/Asap-VariableFont_wght.ttf");
+    src: url("../assets/fonts/Asap/Asap-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: PT Sans;
-    src: url("../../assets/fonts/PT_Sans/PTSans-Regular.ttf");
+    src: url("../assets/fonts/PT_Sans/PTSans-Regular.ttf");
 }
 
 @font-face {
     font-family: PT Sans Narrow;
-    src: url("../../assets/fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf");
+    src: url("../assets/fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf");
 }
 
 @font-face {
     font-family: Open Sans;
-    src: url("../../assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+    src: url("../assets/fonts/Open_Sans/OpenSans-Regular.ttf");
 }
 
 body {
@@ -48,7 +48,7 @@ body {
 }
 
 .wrapper .header {
-    background: url("../../assets/img/header_bcg.png") no-repeat;
+    background: url("../assets/img/header_bcg.png") no-repeat;
     background-size: cover;
     display: grid;
     grid-template: 110px minmax(566px, auto)/1fr minmax(auto, 551px) minmax(auto, 482px) 1fr;
@@ -206,7 +206,7 @@ body {
 }
 
 .wrapper .header header .header_menu .about:before {
-    content: url("../../assets/img/about.png");
+    content: url("../assets/img/about.png");
     width: 21px;
     height: 19px;
     position: absolute;
@@ -222,7 +222,7 @@ body {
 }
 
 .wrapper .header header .header_menu .contact:before {
-    content: url("../../assets/img/contact.png");
+    content: url("../assets/img/contact.png");
     width: 21px;
     height: 19px;
     position: absolute;
@@ -237,7 +237,7 @@ body {
 }
 
 .wrapper .header header .header_menu .services:before {
-    content: url("../../assets/img/services.png");
+    content: url("../assets/img/services.png");
     width: 21px;
     height: 19px;
     position: absolute;
@@ -586,7 +586,7 @@ body {
 .wrapper .main .icons {
     grid-column: 1/5;
     grid-row: 1/2;
-    background: url("../../assets/img/icons_bcg.jpg") repeat-x;
+    background: url("../assets/img/icons_bcg.jpg") repeat-x;
     box-shadow: 0 -3px 5px 0 rgba(0, 0, 0, 0.23), 0 3px 5px 0 rgba(0, 0, 0, 0.23);
     z-index: 30;
     display: grid;
@@ -711,7 +711,7 @@ body {
 .wrapper .main .advertise {
     grid-column: 1/5;
     grid-row: 2/3;
-    background: url("../../assets/img/adver_bcg.png");
+    background: url("../assets/img/adver_bcg.png");
     display: grid;
     grid-template: 509px/1fr minmax(auto, 551px) minmax(auto, 460px) 1fr;
 }
@@ -978,7 +978,7 @@ body {
 .wrapper .main .product {
     grid-column: 1/5;
     grid-row: 3/4;
-    background: url("../../assets/img/product_bcg.png");
+    background: url("../assets/img/product_bcg.png");
     display: grid;
     grid-template: 499px/1fr minmax(auto, 551px) minmax(auto, 460px) 1fr;
 }
